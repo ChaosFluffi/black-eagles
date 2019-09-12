@@ -5,7 +5,8 @@ img{
   max-width : 100%;
 }
 p{
-  text-indent: 3mm
+  text-indent: 3mm;
+  line-height: 1.4;
 }
 h1{
 
