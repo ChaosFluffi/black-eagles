@@ -1,18 +1,73 @@
-html{  font-size: 16px;}
 body{
   margin: 0;
+  overflow: hidden;
 }
-div{
-
+#container{
+  width: 125%;
+  margin: -50px 0 -50px -10px;
+  /* margin: -50px 0 0 -10% */
 }
-.tile1, .tile2{
+.tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7{
   width: 100px;
   height: 100px;
   float: left;
+  opacity: .8;
+  margin: -10px;
 }
 .tile1{
-  background-color: dodgerblue;
+  background-color: lightgreen;
 }
 .tile2{
-  background-color: purple;
+  background-color: deeppink;
+}
+.tile3{
+  background-color: orange;
+}
+
+.circle, .triangle{float: left;}
+
+.circle{
+  width: 135px;
+  height: 103px;
+  border-radius: 100%;
+  background-color: #6666ff;
+  transform: rotate(-11deg);
+  margin-left: 10px;
+  margin-right: -40px;
+}
+
+.triangle{
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+	border-right: 30px solid transparent;
+	border-top: 90px solid #009900;
+  transform: rotate(21deg);
+}
+
+.tile7{
+  margin: 0;
+  background-color: red;
+}
+
+.tile4, .tile6{
+  width: 200px;
+  height: 200px;
+  transform: rotate(-45deg);
+  opacity: .6;
+  background-color: lightgray;
+}
+
+.tile6{
+  opacity: .9;
+  background-color: darkgray;
+}
+
+.tile5{
+  width: 200px;
+  height: 150px;
+  opacity: 1;
+  background-color: red;
+  margin-left: -100px;
+  margin-right: -100px;
 }

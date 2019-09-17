@@ -21,8 +21,12 @@ div{
 .exercises, .projects{
   width: 50%;
   float: left;
+
 }
 
 .exercises{
   background-color: lightgreen;
+}
+
+.extraheight{
 }
