@@ -1,5 +1,6 @@
 body {
   background-color: tomato;
+  margin: 0;
 }
 img{
   max-width : 100%;
@@ -11,3 +12,10 @@ p{
 h1{
   text-align: center;
 }
+
+div{
+  background-color: lightblue;
+  text-align: center;
+}
+
+.exercises{}
