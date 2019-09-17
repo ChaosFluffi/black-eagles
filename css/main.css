@@ -1,6 +1,6 @@
 body {
-  background-color: tomato;
   margin: 0;
+  background-color: tomato;
 }
 img{
   max-width : 100%;
@@ -18,4 +18,11 @@ div{
   text-align: center;
 }
 
-.exercises{}
+.exercises, .projects{
+  width: 50%;
+  float: left;
+}
+
+.exercises{
+  background-color: lightgreen;
+}

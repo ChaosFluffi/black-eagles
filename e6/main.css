@@ -3,11 +3,16 @@ body{
   margin: 0;
 }
 div{
+
+}
+.tile1, .tile2{
   width: 100px;
   height: 100px;
+  float: left;
+}
+.tile1{
   background-color: dodgerblue;
 }
-
 .tile2{
   background-color: purple;
 }
