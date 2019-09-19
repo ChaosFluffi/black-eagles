@@ -18,6 +18,17 @@ div{
   text-align: center;
 }
 
+a{
+  color: black;
+  text-decoration: none;
+  border-bottom: 4px dotted black;
+}
+
+a:hover{
+  color: darkgray;
+  border-bottom: 4px dotted darkgray;
+}
+
 .exercises, .projects{
   width: 50%;
   float: left;
@@ -26,7 +37,4 @@ div{
 
 .exercises{
   background-color: lightgreen;
-}
-
-.extraheight{
 }
