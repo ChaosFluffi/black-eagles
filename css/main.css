@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: tomato;
+  background-color: #153243;
 }
 img{
   max-width : 100%;
@@ -11,27 +11,23 @@ p{
 }
 h1{
   text-align: center;
+  color: #BAE8F4
 }
 
 div{
-  background-color: lightblue;
+  background-color: #153243;
   text-align: center;
 }
 
 a{
-  color: black;
+  color: #BAE8F4;
   text-decoration: none;
-  border-bottom: 4px dashed black;
+  border-bottom: 4px dashed #FFE57F;
 }
 
 a:hover{
-  color: darkgray;
-  border-bottom: 4px dashed darkgray;
-}
-
-a:active{
-  color: gray;
-  border-bottom: 4px dashed gray;
+  color: #DFFCFF;
+  border-bottom: 4px dashed #FFE57F;
 }
 
 .exercises, .projects{
@@ -39,8 +35,4 @@ a:active{
   float: left;
   height: 100%;
 
-}
-
-.exercises{
-  background-color: lightgreen;
 }
