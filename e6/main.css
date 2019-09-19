@@ -7,7 +7,7 @@ body{
   margin: -50px 0 -50px -10px;
   /* margin: -50px 0 0 -10% */
 }
-.tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7{
+.tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8{
   width: 100px;
   height: 100px;
   float: left;
@@ -23,6 +23,45 @@ body{
 .tile3{
   background-color: orange;
 }
+
+.tile4, .tile6{
+  width: 200px;
+  height: 200px;
+  transform: rotate(-45deg);
+  opacity: .6;
+  background-color: lightgray;
+}
+
+.tile5{
+  width: 200px;
+  height: 150px;
+  opacity: 1;
+  background-color: red;
+  margin-left: -100px;
+  margin-right: -100px;
+}
+
+.tile6{
+  opacity: .9;
+  background-color: darkgray;
+}
+
+.tile7{
+  margin: 0;
+  background-color: red;
+}
+
+.tile8{
+  background-color: blue;
+  margin: 0;
+  opacity: 1;
+  transform: rotate(45);
+}
+
+.tile9{
+  float: none;
+}
+
 
 .circle, .triangle{float: left;}
 
@@ -43,31 +82,4 @@ body{
 	border-right: 30px solid transparent;
 	border-top: 90px solid #009900;
   transform: rotate(21deg);
-}
-
-.tile7{
-  margin: 0;
-  background-color: red;
-}
-
-.tile4, .tile6{
-  width: 200px;
-  height: 200px;
-  transform: rotate(-45deg);
-  opacity: .6;
-  background-color: lightgray;
-}
-
-.tile6{
-  opacity: .9;
-  background-color: darkgray;
-}
-
-.tile5{
-  width: 200px;
-  height: 150px;
-  opacity: 1;
-  background-color: red;
-  margin-left: -100px;
-  margin-right: -100px;
 }
