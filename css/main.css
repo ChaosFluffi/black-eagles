@@ -29,9 +29,15 @@ a:hover{
   border-bottom: 4px dotted darkgray;
 }
 
+a:active{
+  color: gray;
+  border-bottom: 4px dotted gray;
+}
+
 .exercises, .projects{
   width: 50%;
   float: left;
+  height: 100%;
 
 }
 
