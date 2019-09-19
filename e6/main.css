@@ -64,23 +64,28 @@ body{
 }
 
 .tile10{
-  width: 50px;
-  height: 300px;
-  opacity: 1;
+  width: 300px;
+  height: 50px;
+  opacity: .9;
   background-color: red;
-  margin-left: -100px;
-  margin-right: -100px;
   transform: rotate(45deg);
+  float: left;
 }
 
 .tile11{
   width: 300px;
   height: 50px;
-  opacity: 1;
-  background-color: red;
-  margin-left: -100px;
-  margin-right: -100px;
+  opacity: .7;
+  background-color: green;
   transform: rotate(-45deg);
+  float: left;
+}
+
+.tile12
+{
+  width: 50px;
+  height: 300px;
+  background-color: white;
 }
 
 
