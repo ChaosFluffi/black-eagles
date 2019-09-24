@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+  margin: 0;
+  margin-top: 50px;
+  background-color: #F7E6F4;
+}
+img{
+  max-width : 100%;
+}
+p{
+  line-height: 1.4;
+
+}
+
+h1{
+  text-align: center;
+  color: #1B1D21;
+}
+
+h3{
+  color: #3E4347;
+}
+
+div{
+  background-color: #F7E6F4;
+  text-align: center;
+}
+
+p{
+  color: #1B1D21;
+}
+
+a{
+  color: #CD2A49;
+  text-decoration: none;
+  border-bottom: 1px #3E4347;
+}
+
+a:hover{
+  color: #9E2E4E;
+  border-bottom: 1px #1B1D21;
+}
