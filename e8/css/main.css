@@ -1,20 +1,87 @@
-div{
+body{background-color: #333333}
 
+#board{width: 800px;}
+
+.white, .red{
   margin: 0;
-
-}
-
-.chesswhite, .chessred, .chessredend, .chesswhiteend{
   width: 100px;
   height: 100px;
   background-color: white;
   float: left;
 }
 
-.chessred, .chessredend{
-  background-color: red;
+.red{ background-color: red;}
+
+#midsection{
+  width: 800px;
+  margin: auto;
 }
 
-.chessredend, .chesswhiteend{
-  float: none;
+.green, .thin, .long, .columns, .lastlong{
+  margin: 10px;
+  height: 100px;
+  width: 100%;
+  background-color: green;
+}
+
+.thin{
+  height: 25px;
+}
+
+.columns{
+  background-color: #333333;
+  height: 800px;
+}
+
+.long, .lastlong{
+  width: 31%;
+  height: 100%;
+  float: left;
+  margin: auto 3.5% auto 0;
+}
+
+.lastlong{
+  margin-right: 0;
+}
+
+#blogboard{
+  margin-top: 100px;
+  width: 800px;
+  margin-left: 50px;
+}
+
+.mainpost, .subpost, .posttext, .topbar, .post{
+  margin: 10px 0;
+  float: left;
+  background-color: lightblue;
+  width: 100%;
+}
+
+.topbar{
+  height: 100px;
+  background-color: lightblue;
+  margin-bottom: 100px;
+}
+
+.post{
+  height: auto;
+  margin-bottom: 100px;
+  background-color: #333333;
+}
+
+.mainpost{
+  width: 650px;
+  height: 300px;
+  margin-right: 10px;
+}
+
+.subpost{
+  width: 140px;
+  height: 150px;
+}
+
+.posttext{
+  height: 25px;
+  width: 650px;
+  margin-top: 0;
 }
