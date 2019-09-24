@@ -11,7 +11,7 @@ p{
 }
 h1{
   text-align: center;
-  color: #BAE8F4
+  color: #BAE8F4;
 }
 
 div{
@@ -35,4 +35,9 @@ a:hover{
   float: left;
   height: 100%;
 
+}
+
+.topbar{
+  width: 100%;
+  height: 10mm;
 }
