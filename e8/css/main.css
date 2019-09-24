@@ -1,0 +1,20 @@
+div{
+
+  margin: 0;
+
+}
+
+.chesswhite, .chessred, .chessredend, .chesswhiteend{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  float: left;
+}
+
+.chessred, .chessredend{
+  background-color: red;
+}
+
+.chessredend, .chesswhiteend{
+  float: none;
+}
