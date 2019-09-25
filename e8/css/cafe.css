@@ -1,40 +1,38 @@
-div{
-  margin: 1px;
-  float: left;
-}
+html{ background-color: #192D39; }
 
-#container{
-  margin: 100px;
-  background-color: none;
+div{ float: left; }
+
+#container{ margin: 100px; }
+
+.horizontal, .vertical{
+  background-color: #4FC791;
+  margin: 1px;
 }
 
 .horizontal{
   width: 1354px;
   height: 25px;
-  background-color: lightblue;
 }
 
 .center1{
-  width: 1372px;
+  margin: 1px;
   margin-left: 0px;
 }
 
 .vertical{
   height: 766px;
   width: 25px;
-  background-color: lightblue;
   margin: -27px 1px;
 }
 
 .group{
-  background-color: blue;
   width: 416px;
-  height: 712px;
-  margin: -1px 0px 0px 0px;
-
+  height: 714px;
+  margin: -1px 0px -1px 0px;
 }
 
 .column{
+  margin: 1px;
   margin-right: 0px;
 }
 
@@ -44,53 +42,42 @@ div{
 
 .topcell{
   height: 206px;
-  width: 104px;
-  background-color: yellow;
   margin: -1px 0 0 -1px;
 }
 
 .subtopcell{
-  width: 104px;
   height: 102px;
-  background-color: black;
   margin: 0;
 }
 
-.topmaincell{
+.subcell, .maincell, .topmaincell{
+  height: 204px;
+  margin: 0;
+}
+
+.topmaincell, .maincell, .subtopcell, .topcell{
   width: 104px;
-  height: 204px;
-  background-color: gray;
-  margin: 0;
 }
 
-.maincell{
-  width: 104px;
-  height: 204px;
-  background-color: gray;
-  margin: 0;
-  margin-left: -1px;
-}
+.maincell{ margin-left: -1px; }
 
-.subcell, .subcell2{
-  width: 52px;
-  height: 204px;
-  background-color: pink;
-  margin: 0;
+.subcell{ width: 52px; }
 
-}
-
-.subcell2{
-  background-color: red;
-}
-
-.cell{
+.cell, .longcell{
   width: 50px;
   height: 100px;
-  background-color: purple;
+  background-color: #4FC791;
+  margin: 1px;
 }
 
-.longcell{
-  width: 50px;
+.chunkcell, .longcell{
   height: 202px;
-  background-color: orange;
 }
+
+.chunkcell, .bigchunkcell{
+  width: 102px;
+  background-color: #4FC791;
+  margin: 1px;
+}
+
+.bigchunkcell{ height: 304px; }
