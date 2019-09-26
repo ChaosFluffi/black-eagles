@@ -1,6 +1,9 @@
 body{background-color: #333333}
 
-#board{width: 800px;}
+#board{
+  width: 800px;
+  margin: 200px 0 0 300px;
+}
 
 .white, .red{
   margin: 0;
