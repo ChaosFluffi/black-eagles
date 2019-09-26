@@ -19,6 +19,15 @@ div{
   text-align: center;
 }
 
+.maintext{
+  background-color: #FFE57F;
+  margin: 0 40px;
+}
+
+ol{
+  text-align: left;
+}
+
 a{
   color: #BAE8F4;
   text-decoration: none;
