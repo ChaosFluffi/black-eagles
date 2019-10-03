@@ -50,3 +50,8 @@ a:hover{
   width: 100%;
   height: 10mm;
 }
+
+.column{
+  width: 50px;
+  margin: 0 20px;
+}
