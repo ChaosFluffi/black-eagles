@@ -8,6 +8,7 @@ img{
 p{
   text-indent: 3mm;
   line-height: 1.4;
+  color: #FFE57F;
 }
 h1{
   text-align: center;
@@ -17,6 +18,10 @@ h1{
 div{
   background-color: #153243;
   text-align: center;
+}
+
+.backdropped{
+  color: black;
 }
 
 .maintext{
