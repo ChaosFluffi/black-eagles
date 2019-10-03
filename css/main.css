@@ -43,7 +43,7 @@ a:hover{
   width: 50%;
   float: left;
   height: 100%;
-
+  align-content: center;
 }
 
 .topbar{
@@ -51,7 +51,13 @@ a:hover{
   height: 10mm;
 }
 
+.columns{
+  align-content:flex-end;
+}
+
 .column{
-  width: 50px;
-  margin: 0 20px;
+  width: 25%;
+  margin: 0;
+  float: left;
+  align-content: center;
 }
