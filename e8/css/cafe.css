@@ -2,7 +2,10 @@ html{ background-color: #192D39; }
 
 div{ float: left; }
 
-#container{ margin: 100px; }
+#container{
+  width: 300%;
+  margin: 100px;
+}
 
 .horizontal, .vertical{
   background-color: #4FC791;
@@ -12,6 +15,10 @@ div{ float: left; }
 .horizontal{
   width: 1354px;
   height: 25px;
+}
+
+.emptytop{
+  width: 100%;
 }
 
 .center1{
