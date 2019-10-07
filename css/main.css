@@ -8,6 +8,7 @@ img{
 p{
   text-indent: 3mm;
   line-height: 1.4;
+  color: #FFE57F;
 }
 h1{
   text-align: center;
@@ -17,6 +18,10 @@ h1{
 div{
   background-color: #153243;
   text-align: center;
+}
+
+.backdropped{
+  color: black;
 }
 
 .maintext{
@@ -43,10 +48,21 @@ a:hover{
   width: 50%;
   float: left;
   height: 100%;
-
+  align-content: center;
 }
 
 .topbar{
   width: 100%;
   height: 10mm;
+}
+
+.columns{
+  align-content:flex-end;
+}
+
+.column{
+  width: 25%;
+  margin: 0;
+  float: left;
+  align-content: center;
 }
