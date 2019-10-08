@@ -8,27 +8,35 @@ body{
 }
 
 #container{
-  height: 10000px;
+  height: 1350px;
 }
 
 h1{
-  float: right;
+  margin-left: 20px;
+  float: left;
   width: 50px;
+  font-size: 100px;
+  color: white;
+  font-family: tangerine, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h2, h3{
   font-family: giddyup-std, sans-serif;
   font-weight: 400;
   font-style: normal;
+  margin-top: -40px;
   font-size: 70px;
+  color: gray;
 }
 
 h2{
-    margin-top: 60px;
+    margin-top: 35px;
 }
 
 h3{
-  margin-top: -40px;
+  margin-top: -50px;
   font-size: 40px;
 }
 
@@ -48,7 +56,7 @@ h3{
 .image{
   margin: 1%;
   margin-top: 10px;
-  width: 400px;
+  width: 300px;
   height: 100%;
   float: left;
 }
@@ -70,4 +78,6 @@ img{
 
 p{
   font-size: 20px;
+  font-family: Arial;
+  line-height: 35px;
 }
