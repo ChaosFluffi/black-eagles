@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  background-color: #153243;
+}
+img{
+  max-width : 100%;
+}
+p{
+  text-indent: 3mm;
+  line-height: 1.4;
+  color: #FFE57F;
+}
+h1{
+  text-align: center;
+  color: #BAE8F4;
+}
+
+div{
+  background-color: #153243;
+  text-align: center;
+}
+
+.backdropped{
+  color: black;
+}
+
+.maintext{
+  background-color: #FFE57F;
+  margin: 0 40px;
+}
+
+ol{
+  text-align: left;
+}
+
+a{
+  color: #BAE8F4;
+  text-decoration: none;
+  border-bottom: 4px dashed #FFE57F;
+}
