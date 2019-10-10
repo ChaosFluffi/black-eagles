@@ -7,4 +7,75 @@
 --or--
 - make the words into sections with some dark red background colors as separators.
 
-- 
+- make all the small text have a bit more text space between the lines make all the text +1 or +2 size bigger.
+
+- find a better font for the general text.
+
+-add some green and blue like code lines for more design
+
+
+FONTS TO REMEMBER GOOGLE
+- Zilla Slab Highlight
+- Monofett
+- Major Mono Display
+- Gugi
+- Bungee Shade
+- Megrim
+- Vast Shadow
+- Nova Cut
+- Faster One
+- Shojumaru
+- Freckle Face
+- Bungee Hairline
+- Quantico
+- Aldritch
+- VT323
+- Aclonica
+- Michroma
+- Share Tech Mono
+- Jura
+- Press Start 2P
+- Audiowide
+- Monoton
+- Russo One
+- Oribitron
+- Play
+- Geostar Fill
+- Fascinate
+
+
+code to use for implementing the fonts:
+
+<link href="https://fonts.googleapis.com/css?family=Aclonica|Aldrich|Audiowide|Bungee+Hairline|Bungee+Shade|Caesar+Dressing|Faster+One|Freckle+Face|Geostar+Fill|Gugi|Jura|Major+Mono+Display|Megrim|Michroma|Monofett|Monoton|Nova+Cut|Orbitron|Play|Press+Start+2P|Quantico|Russo+One|Share+Tech+Mono|Shojumaru|VT323|Vast+Shadow|Zilla+Slab+Highlight&display=swap" rel="stylesheet">
+
+Remove fonts from above list that aren't to be used in the file.
+
+-- -- -- More Code Below -- -- --
+
+font-family: 'Play', sans-serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Russo One', sans-serif;
+font-family: 'Monoton', cursive;
+font-family: 'Audiowide', cursive;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Jura', sans-serif;
+font-family: 'Share Tech Mono', monospace;
+font-family: 'Michroma', sans-serif;
+font-family: 'Aclonica', sans-serif;
+font-family: 'VT323', monospace;
+font-family: 'Aldrich', sans-serif;
+font-family: 'Quantico', sans-serif;
+font-family: 'Bungee Hairline', cursive;
+font-family: 'Freckle Face', cursive;
+font-family: 'Shojumaru', cursive;
+font-family: 'Faster One', cursive;
+font-family: 'Nova Cut', cursive;
+font-family: 'Vast Shadow', cursive;
+font-family: 'Megrim', cursive;
+font-family: 'Bungee Shade', cursive;
+font-family: 'Gugi', cursive;
+font-family: 'Major Mono Display', monospace;
+font-family: 'Monofett', cursive;
+font-family: 'Zilla Slab Highlight', cursive;
+font-family: 'Caesar Dressing', cursive;
+font-family: 'Geostar Fill', cursive;
