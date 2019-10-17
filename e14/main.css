@@ -1,0 +1,49 @@
+html{  font-size: 16px;}
+
+#container{
+  width: 50%;
+  margin: 100px auto;
+}
+
+body {
+  background-color: whitesmoke;
+  /* margin-left: 20mm; */
+  /* margin-right: 20mm; */
+}
+img{
+  max-width : 100%;
+}
+p{
+  text-indent: 5mm;
+}
+h1{
+  text-align: center;
+  font-family: Papyrus, bold;
+  font-family: fantasy, bold;
+}
+/* commas before a bracket let you target more than one element at once */
+h3, h2{
+  font-family: Papyrus, bold;
+  font-family: fantasy, bold;
+}
+h5{
+  font-style: italic;
+}
+
+.intro{
+  color: red;
+}
+
+p.intro
+{
+  color: blue;
+  font-style: italic;
+  font-size: 1.3em;
+  /* em multplies the pixel font size */
+}
+
+#special{
+  color: green;
+  font-size: 1.1em;
+  font-family: ComicSansMS;
+}
