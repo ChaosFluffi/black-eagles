@@ -1,7 +1,14 @@
+#container{
+  height: auto;
+  margin-top: 300px;
+  margin-left: 20%;
+  margin-right: 5%;
+}
+
 .head{
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
   margin: 20px 0;
   background: brown;
   border-radius: 45% / 20%;
@@ -19,15 +26,72 @@
   left: -9%;
   background: inherit;
   border-radius: 15% / 50%;
-  width: 235px;
+  width: 470px;
 }
 
 .hole{
-  width: 130px;
-  height: 40px;
+  width: 260px;
+  height: 80px;
   background: darkgray;
   border-radius: 50%;
-  top: 10px;
-  left: 20%;
+  top: 20px;
+  left: 18%;
   position: absolute;
+}
+
+.holebottom{
+  width: 100%;
+  margin-top: -30px;
+}
+
+.holeBottomLeft, .holeBottomRight{
+  width:130px;
+  border:1px solid transparent;
+  background-color: black;
+  position: relative;
+}
+
+.holeBottomRight{
+  height:40px;
+  border-radius: 0 0 90px 0;
+  top: 10%;
+}
+
+.holeBottomLeft{
+  height:50px;
+  border-radius: 0 0 0 90px;
+}
+
+.holeTop{
+  width: 260px;
+  height: 60px;
+  border-radius: 200px / 50px;
+  background:gray;
+}
+
+.chink{
+  position: absolute;
+  left: 50%;
+  bottom: 25%;
+}
+
+.chinkleft{
+  width: 0;
+  height: 0;
+  border-top: 18px solid transparent;
+  border-right: 18px solid darkgray;
+  border-bottom: 18px solid transparent;
+  position: absolute;
+  right: 25%;
+}
+
+.chinkright{
+  width: 0;
+  height: 0;
+  border-top: 18px solid transparent;
+  border-left: 36px solid darkgray;
+  border-bottom: 18px solid transparent;
+  position: absolute;
+  left: 25%;
+
 }
