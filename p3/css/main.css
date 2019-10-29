@@ -27,14 +27,14 @@ h1{
 
 h2{
   font-family: Orbitron;
-  font-size: 30px;
+  font-size: 2.25em;
 }
 
 img{
   margin: 0;
   margin-left: auto;
   margin-right: auto;
-  max-width: 100%;
+  width: 100%;
 }
 
 .Para, .mainPara{
@@ -53,6 +53,9 @@ img{
 
 @media only screen and (max-width: 767px){
   /* The Mobile Layout Settings*/
+  img{
+    width: auto;
+  }
   .Futaba{
     max-width: 50%;
     float: left;
@@ -89,11 +92,25 @@ img{
   h1{
     overflow: hidden;
   }
+  img{
+    width: auto;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
 }
 
 @media only screen and (max-width: 1339px){
   /* The Mobile Layout Settings*/
   h1{
     overflow: hidden;
+  }
+  img{
+    width: auto;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
   }
 }
