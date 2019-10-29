@@ -1,0 +1,26 @@
+html{
+  background-color: #0A0C1C;
+}
+
+div{
+  margin: 0;
+}
+
+#container{
+
+}
+
+img{
+  margin: 0;
+  max-width: 150%;
+}
+
+@media only screen and (max-width: 767px){
+/* The Mobile Layout Settings*/
+
+img{
+  margin-left: -25%;
+  margin-top: -10%;
+}
+
+}
