@@ -1,0 +1,33 @@
+.head{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 20px 0;
+  background: brown;
+  border-radius: 45% / 20%;
+  color: white;
+  text-align: center;
+  text-indent: .1em;
+  margin-left: 50px;
+}
+.head:before {
+  content: '';
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  right: -5%;
+  left: -9%;
+  background: inherit;
+  border-radius: 15% / 50%;
+  width: 235px;
+}
+
+.hole{
+  width: 130px;
+  height: 40px;
+  background: darkgray;
+  border-radius: 50%;
+  top: 10px;
+  left: 20%;
+  position: absolute;
+}
