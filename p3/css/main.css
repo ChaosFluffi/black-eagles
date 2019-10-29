@@ -8,9 +8,9 @@ h1, h2, p{
 }
 
 div{
-  margin: 0;
+  margin-left: 10px;
+  margin-right: 10px;
   align-content: center;
-  width: 100%;
 }
 
 #container{
@@ -19,6 +19,11 @@ div{
 
 h1{
   text-align: center;
+  font-family: Orbitron;
+}
+
+h2{
+  font-family: Orbitron;
 }
 
 img{
@@ -27,19 +32,23 @@ img{
   max-width: 100%;
 }
 
+.Para{
+  margin: 0;
+}
+
 .titleText{
   width: 100%;
   font-size: 4em;
-  font-family: fantasy;
+  font-family: Orbitron;
   height: 70px;
   align-self: center;
 }
 
 @media only screen and (max-width: 767px){
   /* The Mobile Layout Settings*/
-  img{
-
-
+  .Futaba{
+    max-width: 50%;
+    float: left;
   }
   .banner{
     max-width: 150%;
