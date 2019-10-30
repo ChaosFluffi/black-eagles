@@ -13,8 +13,6 @@
   background: brown;
   border-radius: 45% / 20%;
   color: white;
-  text-align: center;
-  text-indent: .1em;
   margin-left: 50px;
 }
 .head:before {
@@ -30,43 +28,30 @@
 }
 
 .hole{
-  width: 260px;
+  width: 300px;
   height: 80px;
   background: darkgray;
   border-radius: 50%;
   top: 20px;
-  left: 18%;
+  left: 12.5%;
   position: absolute;
 }
-
-.holebottom{
-  width: 100%;
-  margin-top: -30px;
+.holecover{
+  background-color: brown;
+  z-index: 1;
+  width: 300px;
+  height: 40px;
+  border-radius: 50% 50% 0 0 ;
+  position: absolute;
 }
-
-.holeBottomLeft, .holeBottomRight{
-  width:130px;
-  border:1px solid transparent;
-  background-color: black;
-  position: relative;
-}
-
-.holeBottomRight{
-  height:40px;
-  border-radius: 0 0 90px 0;
-  top: 10%;
-}
-
-.holeBottomLeft{
-  height:50px;
-  border-radius: 0 0 0 90px;
-}
-
 .holeTop{
-  width: 260px;
+  width: 300px;
   height: 60px;
-  border-radius: 200px / 50px;
-  background:gray;
+  border-radius: 50%;
+  background: darkgray;
+  position: absolute;
+  top: 15%;
+  z-index: 2;
 }
 
 .chink{
@@ -74,7 +59,6 @@
   left: 50%;
   bottom: 25%;
 }
-
 .chinkleft{
   width: 0;
   height: 0;
@@ -84,7 +68,6 @@
   position: absolute;
   right: 25%;
 }
-
 .chinkright{
   width: 0;
   height: 0;
@@ -94,4 +77,25 @@
   position: absolute;
   left: 25%;
 
+}
+
+.hornbase{
+  width: 200px;
+  height: 80px;
+  background-color: green;
+  left: -30%;
+  bottom: 30%;
+  border-radius: 50% 50% 50% 50%;
+  position: absolute;
+}
+
+.innercurveshadow{
+  width: 50px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow:  15px 15px 0 0 lightgreen;
+  transform: rotate(90deg);
+  position: absolute;
+  top: -95%;
+  right: 40%;
 }
