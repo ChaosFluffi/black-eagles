@@ -3,6 +3,12 @@ html{
   overflow-x: hidden;
 }
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 h1, h2, p{
   color: #dde3c2;
 }
@@ -36,6 +42,10 @@ img{
   margin: 0;
   width: 100%;
   z-index: 2;
+}
+
+.topPort{
+  overflow: auto;
 }
 
 .tophalf{
@@ -101,6 +111,7 @@ img{
 
 .banner{
   z-index: -1;
+  clear: both;
 }
 
 @media only screen and (max-width: 767px){
@@ -163,7 +174,7 @@ img{
   }
 }*/
 
-@media only screen and (min-width: 1024) /*and (max-width: 1339px)*/{
+@media only screen and (min-width: 1024px) /*and (max-width: 1339px)*/{
   /* The Smol Desktop Layout Settings*/
   h1{
     display: none;
@@ -209,7 +220,6 @@ img{
 
   .tophalf{
     width: 100%;
-    height: .tophalf1$height;
     float: none;
   }
 
