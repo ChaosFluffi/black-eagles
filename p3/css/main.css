@@ -35,12 +35,27 @@ h2{
 img{
   margin: 0;
   width: 100%;
+  z-index: 2;
+}
+
+.tophalf{
+  overflow: auto;
+}
+
+.block{
+  width: none;
+  height: none;
+  background-color: #0A0C1C;
 }
 
 .tophalf1, .tophalf2{
   float: left;
   width: 50%;
   margin-top: -30px;
+}
+
+.tophalf2{
+  float: right;
 }
 
 .inText{
@@ -55,14 +70,14 @@ img{
 
 .RedBar{
   margin-top: 300px;
-  margin-bottom: 300px;
+  margin-bottom: 200px;
   margin-left: auto;
   margin-right: auto;
   width: 300px;
   max-width: 75%;
   height: 10px;
   background-color: red;
-  float: center;
+  clear: both;
 }
 
 .wholebody{
@@ -82,6 +97,10 @@ img{
   font-family: Orbitron;
   height: 70px;
   align-self: center;
+}
+
+.banner{
+  z-index: -1;
 }
 
 @media only screen and (max-width: 767px){
@@ -158,6 +177,26 @@ img{
     max-width: 100%;
   }
 
+  .block{
+    width: 50px;
+    height: 50px;
+  }
+
+  .Para{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .Futaba{
+    max-width: 300px;
+  }
+
+  .mainPara{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+  }
+
   .tophalf1, .tophalf2{
     float: left;
     width: 50%;
@@ -170,7 +209,7 @@ img{
 
   .tophalf{
     width: 100%;
-    height: 500px;
+    height: .tophalf1$height;
     float: none;
   }
 
