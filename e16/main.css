@@ -1,5 +1,5 @@
 html{
-  background-color: black;
+  background-color: #212125;
 }
 
 #container{
@@ -10,13 +10,12 @@ html{
   margin-right: 25%;
 }
 
-
 .head{
   position: relative;
   width: 400px;
   height: 400px;
   margin: 20px 0;
-  background: #4E2E14;
+  background: #76685B;
   border-radius: 45% / 20%;
   margin-left: 50px;
 }
@@ -42,7 +41,7 @@ html{
   position: absolute;
 }
 .holecover{
-  background-color: #4E2E14;
+  background-color: #76685B;
   z-index: 1;
   width: 300px;
   height: 40px;
@@ -80,45 +79,99 @@ html{
 
 }
 
-.hornbase{
-  width: 250px;
-  height: 80px;
-  background-color: #7B6B5E;
-  left: -30%;
-  bottom: -12em;
-  border-radius: 50%;
-  position: relative;
-}
-.hornbase::before{
-  content: '';
+.hornright{
+  transform: scaleX(-1);
   position: absolute;
-  width: 250px;
-  height: 80px;
-  background-color: inherit;
-  border-radius: 50%;
-  left: -6.6em;
-  bottom: 6.6em;
+  left: 18.5em;
+  top: 0em;
+}
+.horncenter, .hornbranch{
+  width: 50px;
+  border-bottom: 125px solid #76685B;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  height: 0;
+  position: relative;
+  transform: rotate(-90deg);
+  top: 9em;
+  left: -9em;
+}
+.hornbranch{
+  position: absolute;
+  top: -.95em;
+  left: 4em;
+  width: 40px;
+  border-bottom: 100px solid #76685B;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
   transform: rotate(90deg);
 }
-
-.curve{
-  width: 250px;
-  height: 40px;
-  border: 20px solid transparent;
-  border-left: 20px solid #7B6B5E;
+.hornOutline, .hornOutlineInner, .hornOutlineFill, .hornOutlineInnerFill{
+  width: 80px;
+  height: 150px;
   border-radius: 50% 0 0 0;
-  position: relative;
-  top: .5%;
-  left: -40%;
-  transform: rotate(-90deg);
+  box-shadow: -15px -15px 0 0 #76685B;
+  position: absolute;
+  right: -.5em;
+  top: .95em;
 }
-
-.curve2{
-
+.hornOutlineFill{
+  top: .5em;
+  right: -.5em;
+}
+.hornOutlineInner, .hornOutlineInnerFill{
+  height: 80px;
+  top: 3.8em;
+  left: 5.2em;
+}
+.hornOutlineInnerFill{
+  position: relative;
+  top: -.5em;
+  left: -.5em;
+}
+.horntip{
+  width: 0;
+  height: 0;
+  border-top: 22px solid transparent;
+  border-right: 50px solid #76685B;
+  border-bottom: 20px solid transparent;
+  position: absolute;
+  transform: rotate(90deg);
+  left: 9.95em;
+  top: -2.9em;
+}
+.hornTopCorner, .hornTopCorner2, .hornTopCorner3{
+  width: 60px;
+  height: 62px;
+  border-radius: 50% 0 0 0;
+  box-shadow: -15px -15px 0 0 #76685B;
+  position: relative;
+  transform: rotate(90deg);
+  top: -2.6em;
+  left: -1.85em;
+}
+.hornTopCorner2{
+  top: -4.75em;
+  left: -1.9em;
+  width: 30px;
+  height: 30px;
+}
+.hornTopCorner3{
+  width: 55px;
+  height: 55px;
+  box-shadow: -20px -20px 0 0 #76685B;
+  top: -7.5em;
+  left: -2.7em;
 }
 
 .mouth{
-
+  width: 25px;
+  height: 40px;
+  background-color: #1F2024;
+  border-radius: 50%;
+  position: relative;
+  top: 12em;
+  left: 11.5em;
 }
 .eye, .eyeright{
   width: 120px;
@@ -143,25 +196,4 @@ html{
   height: 100px;
   background-color: #ECA2A5;
   border-radius: 50%;
-}
-
-.wisptriangle{
-
-}
-.wispOutline{
-
-}
-
-
-.hornp1{
-
-}
-
-.trapezoid {
-  border-bottom: 100px solid red;
-  border-radius: 15%;
-  border-left: 25px solid transparent;
-  border-right: 25px solid transparent;
-  height: 0;
-  width: 100px;
 }
