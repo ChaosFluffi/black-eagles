@@ -21,7 +21,6 @@ h1, h2, p{
 }
 div{
   margin: 0;
-  background-color: none;
   align-content: center;
 }
 h1{
@@ -70,32 +69,27 @@ img{
   margin-left: 10px;
   margin-right: 10px;
 }
-.Para, .mainPara{
-  margin-left: 10px;
-  margin-right: 10px;
+.mainPara{
+  margin-right: auto;
+  width: 518px;
+}
+.Para{
+  margin-left: 66px;
+  margin-right: 71px;
 }
 
-.block{
-  width: none;
-  height: none;
-  background-color: #5B5B5B;
-}
 .mainIcon, .ufo{
-  max-width: 267px;
+  max-width: 254px;
   margin-left: auto;
   margin-right: auto;
 }
 .ufo{
-  max-width: 275px;
+  max-width: 320px;
   margin-top: 50px;
 }
-
 .Images1{
   margin-bottom: 30px;
 }
-/*.titleText{
-
-}*/
 .RedBar{
   margin-top: 300px;
   margin-bottom: 200px;
@@ -170,31 +164,13 @@ img{
     margin-left: auto;
     margin-right: auto;
   }
-
   .mainIcon, .ufo{
     max-width: 300px;
     margin-left: auto;
     margin-right: auto;
     display: block;
   }
-  .titleText{
-
-  }
 }
-
-/*@media only screen and (min-width: 768) and (max-width: 1023px){
-  The Tablet Layout Settings
-  h1{
-    display: block;
-  }
-  img{
-    width: auto;
-    margin: 0;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-  }
-}*/
 
 @media only screen and (min-width: 1024px) /*and (max-width: 1339px)*/{
   /* The Smol Desktop Layout Settings*/
@@ -204,48 +180,73 @@ img{
   }
   img{
     width: auto;
-    margin: -20%;
     margin-left: auto;
     margin-right: auto;
     max-width: 100%;
   }
+  p{
+    margin-bottom: 70px;
+  }
 
-  .topPort{
-    position: absolute;
+  .topPort, .tophalf{
+    position: relative;
     z-index: 1;
   }
   .tophalf{
-    width: 100%;
-    float: none;
+    margin-top: -134px;
+    width: 914px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 3;
+  }
+  .tophalf1, .tophalf2{
+    width: 50%;
+  }
+  .tophalf2{
+  }
+  .wholebody{
+    width: 782px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .banner{
+    position: relative;
+    z-index: 1;
+  }
+  .mainIcon, .ufo{
     position: relative;
     z-index: 2;
   }
-  .tophalf1, .tophalf2{
-    float: left;
-    width: 50%;
-    margin-top: 0px;
+  .mainIcon{
+    left: 0em;
   }
-  .tophalf2{
-    float: right;
+  .ufo{
+    left: 8em;
   }
-  .mainPara{
-    margin-left: auto;
-    margin-right: auto;
-    width: 600px;
+  .Futaba, .Futaba1, .arcana{
+    width: 188px;
+    position: absolute;
+    right: 0em;
+    top: 7em;
   }
-  .Para{
-    margin-left: 100px;
-    margin-right: 100px;
+  .Futaba1{
+    top: -17em;
+  }
+  .arcana{
+    top: -6em;
+  }
+
+  .Images1, .Images2{
+    margin: 0;
+    position: relative;
   }
 
   .Futaba, .Futaba1{
     max-width: 300px;
   }
   .RedBar{
-    margin-top: 600px;
-  }
-  .block{
-    width: 50px;
-    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 100px;
   }
 }
