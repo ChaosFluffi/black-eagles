@@ -1,6 +1,13 @@
 html{
-  background-color: #0A0C1C;
+  background-color: #5B5B5B;
   overflow-x: hidden;
+}
+body{
+  margin: 0;
+}
+
+#container{
+  margin: 0px;
 }
 
 .clearfix:after {
@@ -12,72 +19,83 @@ html{
 h1, h2, p{
   color: #dde3c2;
 }
-
 div{
   margin: 0;
+  background-color: none;
   align-content: center;
 }
-
-#container{
-  margin: 0px;
-}
-
 h1{
-  font-size: 24px;
   text-align: center;
   font-family: Orbitron;
   font-style: normal;
   font-variant: normal;
   font-weight: 700;
+  font-size: 3.5em;
+  line-height: 1.2em;
   display: none;
   overflow: hidden;
+  width: 100%;
+  height: 70px;
+  align-self: center;
 }
-
 h2{
   font-family: Orbitron;
-  font-size: 2.25em;
+  font-size: 25px;
+  line-height: 45px;
 }
-
+p{
+  font-family: 'PT Sans';
+}
 img{
   margin: 0;
   width: 100%;
-  z-index: 2;
 }
 
-.topPort{
+.topPort, .tophalf{
   overflow: auto;
 }
-
-.tophalf{
-  overflow: auto;
-}
-
-.block{
-  width: none;
-  height: none;
-  background-color: #0A0C1C;
-}
-
 .tophalf1, .tophalf2{
   float: left;
   width: 50%;
   margin-top: -30px;
 }
-
 .tophalf2{
   float: right;
 }
+.banner, .topPort{
+  clear: both;
+  overflow: hidden;
+}
+.wholebody{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.Para, .mainPara{
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
-.inText{
-  max-width: 300px;
+.block{
+  width: none;
+  height: none;
+  background-color: #5B5B5B;
+}
+.mainIcon, .ufo{
+  max-width: 267px;
   margin-left: auto;
   margin-right: auto;
+}
+.ufo{
+  max-width: 275px;
+  margin-top: 50px;
 }
 
 .Images1{
   margin-bottom: 30px;
 }
+/*.titleText{
 
+}*/
 .RedBar{
   margin-top: 300px;
   margin-bottom: 200px;
@@ -90,73 +108,77 @@ img{
   clear: both;
 }
 
-.wholebody{
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.Para, .mainPara{
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.titleText{
-  width: 100%;
-  font-size: 3.5em;
-  line-height: 1.2em;
-  font-family: Orbitron;
-  height: 70px;
-  align-self: center;
-}
-
-.banner{
-  z-index: -1;
-  clear: both;
-}
-
 @media only screen and (max-width: 767px){
   /* The Mobile Layout Settings*/
-  div{
-    margin: 0;
+  h1{
+    display: block;
+    margin-top: -25%;
+    margin-left: 18.5%;
+    margin-right: 18.5%;
+    width: 63%;
+    font-size: 50px;
+    line-height: 80px;
   }
-  .RedBar{
-    margin-top: 100px;
-    margin-bottom: 100px;
+  h2{
+    font-size: 25px;
+    line-height: 45px;
+  }
+  p{
+    font-size: 18px;
+    line-height: 1.3em;
+  }
+
+  .wholebody, .tophalf{
+    margin-left: 25px;
+    margin-right: 25px;
   }
   .tophalf1, .tophalf2{
     float: none;
     width: 100%;
     margin-top: 0;
   }
-  .Futaba{
-    max-width: 50%;
-    float: left;
+  .tophalf{
+    margin-top: 30px;
   }
+
   .banner{
     width: 150%;
     margin-left: -25%;
     margin-top: -10%;
   }
-  .inText{
+  .RedBar{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .Futaba, .Futaba1{
+    max-width: 122px;
+  }
+  .Futaba1{
+    margin-left: 5px;
+  }
+  .Images1, .Images2{
+    overflow: auto;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .Images2{
+    width: 100%;
+  }
+  .arcana{
+    width: 113px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mainIcon, .ufo{
     max-width: 300px;
     margin-left: auto;
     margin-right: auto;
     display: block;
   }
-  h1{
-    display: block;
-  }
   .titleText{
-    margin-top: -25%;
-    margin-left: 25%;
-    margin-right: 25%;
-    width: 50%;
-    margin-bottom: 25%;
-  }
 
-  p{
-    font-size: 20px;
-    line-height: 1.3em;
   }
 }
 
@@ -188,42 +210,42 @@ img{
     max-width: 100%;
   }
 
-  .block{
-    width: 50px;
-    height: 50px;
+  .topPort{
+    position: absolute;
+    z-index: 1;
   }
-
-  .Para{
-    margin-left: 100px;
-    margin-right: 100px;
+  .tophalf{
+    width: 100%;
+    float: none;
+    position: relative;
+    z-index: 2;
   }
-
-  .Futaba{
-    max-width: 300px;
-  }
-
-  .mainPara{
-    margin-left: auto;
-    margin-right: auto;
-    width: 600px;
-  }
-
   .tophalf1, .tophalf2{
     float: left;
     width: 50%;
     margin-top: 0px;
   }
-
   .tophalf2{
     float: right;
   }
-
-  .tophalf{
-    width: 100%;
-    float: none;
+  .mainPara{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+  }
+  .Para{
+    margin-left: 100px;
+    margin-right: 100px;
   }
 
+  .Futaba, .Futaba1{
+    max-width: 300px;
+  }
   .RedBar{
     margin-top: 600px;
+  }
+  .block{
+    width: 50px;
+    height: 50px;
   }
 }
