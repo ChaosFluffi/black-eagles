@@ -69,14 +69,7 @@ img{
   margin-left: 10px;
   margin-right: 10px;
 }
-.mainPara{
-  margin-right: auto;
-  width: 518px;
-}
-.Para{
-  margin-left: 66px;
-  margin-right: 71px;
-}
+
 
 .mainIcon, .ufo{
   max-width: 254px;
@@ -135,6 +128,7 @@ img{
     margin-top: 30px;
   }
 
+
   .banner{
     width: 150%;
     margin-left: -25%;
@@ -172,6 +166,100 @@ img{
   }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1023px) /*and (max-width: 1339px)*/{
+  /* The Smol Desktop Layout Settings*/
+  h1{
+    display: none;
+    margin: 0;
+  }
+  img{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+  p{
+    margin-bottom: 70px;
+  }
+
+  .image{
+    float: right;
+  }
+  .Para{
+    margin-left: 89px;
+    margin-right: 6px;
+  }
+  .mainPara{
+    margin-right: auto;
+    margin-left: 89px;
+    width: 350px;
+  }
+
+  .topPort, .tophalf{
+    position: relative;
+    z-index: 1;
+  }
+  .tophalf{
+
+    z-index: 3;
+  }
+  .tophalf1, .tophalf2{
+    width: 706px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    float: none;
+  }
+  .tophalf2{
+  }
+  .wholebody{
+    width: 706px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .banner{
+    position: relative;
+    z-index: 1;
+  }
+  .mainIcon, .ufo{
+    position: relative;
+    z-index: 2;
+    max-width: 261px;
+    margin-top: 0px;
+  }
+  .mainIcon{
+    left: 0em;
+  }
+  .Futaba, .Futaba1, .arcana{
+    width: 261px;
+    position: absolute;
+    right: 0em;
+    top: 15em;
+  }
+  .Futaba1{
+    top: -23em;
+  }
+  .arcana{
+    width: 172px;
+    top: 2em;
+    right: 3em;
+  }
+
+  .Images1, .Images2{
+    margin: 0;
+    position: relative;
+  }
+
+  .Futaba, .Futaba1{
+    max-width: 300px;
+  }
+  .RedBar{
+    margin-top: 30px;
+    margin-bottom: 100px;
+  }
+}
+
 @media only screen and (min-width: 1024px) /*and (max-width: 1339px)*/{
   /* The Smol Desktop Layout Settings*/
   h1{
@@ -199,10 +287,16 @@ img{
     margin-right: auto;
     z-index: 3;
   }
+  .Para{
+    margin-left: 66px;
+    margin-right: 71px;
+  }
+  .mainPara{
+    margin-right: auto;
+    width: 518px;
+  }
   .tophalf1, .tophalf2{
     width: 50%;
-  }
-  .tophalf2{
   }
   .wholebody{
     width: 782px;
