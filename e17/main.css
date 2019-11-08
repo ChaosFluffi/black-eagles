@@ -1,0 +1,18 @@
+body {
+  margin-left: 100px;
+  background-color: #153243;
+}
+
+h2{
+  color: #BAE8F4;
+}
+
+a{
+  color: #BAE8F4;
+  text-decoration: none;
+  border-bottom: 4px dashed #FFE57F;
+}
+
+li{
+  color: #FFE57F;
+}

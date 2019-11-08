@@ -37,6 +37,10 @@ ol{
   text-align: left;
 }
 
+li{
+  color: #FFE57F;
+}
+
 a{
   color: #BAE8F4;
   text-decoration: none;
@@ -88,4 +92,10 @@ a:hover{
 
 .transImag{
     background-color: whitesmoke;
+}
+
+.squareRed{
+  width: 100px;
+  height: 100px;
+  background-color: red;
 }
