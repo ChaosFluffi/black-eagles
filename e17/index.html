@@ -7,9 +7,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
       $(document).ready(function(){
-
-        // jQuery methods go here...
-
+        $("li").click(function(){
+          $(this).css("color", "#DFFCFF");
+        });
+        $("h2").dblclick(function(){
+          $(this).css("font-size","2em");
+        });
+        $("li").mouseenter(function(){
+          $(this).css("font-size", "3em");
+        });
+        $("li").mouseleave(function(){
+          $(this).css("font-size", "1em");
+        });
       });
     </script>
   </head>
@@ -24,7 +33,6 @@
         <li>Umbreon</li>
         <li>Mimikyu</li>
       </ul>
-      <button type="button" name="button">Red to Blue</button>
     </div>
   </body>
 </html>
