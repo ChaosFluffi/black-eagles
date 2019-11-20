@@ -6,10 +6,31 @@
     <link rel="stylesheet" href="ops.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
-
+      $(document).ready(function(){
+        $
+      });
     </script>
   </head>
   <body>
-    <h1>hello</h1>
+    <div id="container">
+      <div class="Butt">
+      </div>
+      <div class="top">
+        <p id="demo">hello</p>
+      </div>
+      <div class="Butt">
+      </div>
+
+    </div>
+
+    <script>
+      var str1 = 'Am I ';
+      var pregArray = [
+        'pregant', 'pragnent', 'pergant', 'gregnant', 'pegnate', 'pegrent', 'pregegnant', 'pregonate', 'prengan', 'prregnant', 'pregante', 'pergert', 'pegnat', 'pragnet', 'pergenat', 'prangnet', 'prangan', 'pregnart', 'bregant', 'pregarnt', 'pregat', 'fregnant', 'pargnet', 'peegnant', 'pergnut', 'pgrenant', 'praganant', 'prangent', 'prefnat', 'pregananant', 'pregernet', 'prengt', 'prognant', 'pretnet', 'pragnan'
+      ];
+      var str2 = pregArray[Math.floor(Math.random()*pregArray.length)];
+      var quest = str1.concat(str2,'?');
+      document.getElementById("demo").innerHTML = quest;
+    </script>
   </body>
 </html>
