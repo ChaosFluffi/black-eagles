@@ -11,12 +11,23 @@ div{
   margin: 0px;
 }
 
+a{
+  text-align: center;
+}
+
 .imagehalf{
 
 }
 
 .texthalf{
 
+}
+
+.third{
+  width: 33%;
+  height: auto;
+  float: left;
+  align-content: center;
 }
 
 .header{
@@ -30,6 +41,12 @@ div{
 .headerbar{
   background-color: gray;
   height: 25px;
+}
+
+.innerbar{
+  margin: 0px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .collectionspace{
