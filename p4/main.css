@@ -16,11 +16,14 @@ a{
 }
 
 .imagehalf{
-
+  width: 500px;
+  overflow: hidden;
+  float:left;
 }
 
 .texthalf{
-
+  width: 500px;
+  float: left;
 }
 
 .third{
