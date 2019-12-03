@@ -112,6 +112,7 @@ h1{
   .collectionspace{
     width: 450px;
     height: 1150px;
+    margin-top: 50px;
   }
   .item{
     float: none;
@@ -128,6 +129,7 @@ h1{
   .collectionspace{
     width: 660px;
     height: 1150px;
+    margin-top: 50px;
   }
   .item{
     float: none;
