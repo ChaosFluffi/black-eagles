@@ -66,7 +66,6 @@ h1{
 }
 
 .collectionspace{
-  background-color: none;
   width: 1100px;
   height: 500px;
   margin: auto;
@@ -75,7 +74,6 @@ h1{
 .row{
   width: 100%;
   height: auto;
-  background-color: green;
   float: none;
 }
 .item{
@@ -83,7 +81,7 @@ h1{
   height: 200px;
   width: 200px;
   overflow: hidden;
-  margin: 10px;
+  margin: 15px;
 }
 
 .detailsdiv{
@@ -117,6 +115,24 @@ h1{
   }
   .item{
     float: none;
+  }
+  .row{
+    float: left;
+    width: 50%;
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1339px){
+
+  .collectionspace{
+    width: 630px;
+    height: 1150px;
+  }
+  .item{
+    float: none;
+    height: 300px;
+    width: 300px;
   }
   .row{
     float: left;
