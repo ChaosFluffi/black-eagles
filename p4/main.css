@@ -66,7 +66,7 @@ h1{
 }
 
 .collectionspace{
-  width: 1100px;
+  width: 1150px;
   height: 500px;
   margin: auto;
   margin-top: 100px;
@@ -126,7 +126,7 @@ h1{
 @media only screen and (min-width: 1025px) and (max-width: 1339px){
 
   .collectionspace{
-    width: 630px;
+    width: 660px;
     height: 1150px;
   }
   .item{
