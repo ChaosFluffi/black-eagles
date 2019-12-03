@@ -101,3 +101,13 @@ h1{
   width: 1050px;
   margin: auto;
 }
+
+.textbody{
+  width: 400px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.aboutbody{
+  margin-top: 50px;
+}
